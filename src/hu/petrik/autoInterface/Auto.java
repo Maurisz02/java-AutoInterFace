@@ -4,6 +4,6 @@ public interface Auto {
 
     void gyorsul();
 
-    int getSebesseg();
+    double getSebesseg();
 
 }
