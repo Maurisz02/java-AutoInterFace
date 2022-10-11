@@ -24,6 +24,12 @@ public class Main {
         for (Auto a : autok){
             System.out.println(a.getSebesseg());
         }
+        System.out.println("\n\n");
+        System.out.println("Gyorsulas utan");
+        for (Auto a : autok){
+            a.gyorsul();
+            System.out.println(a.getSebesseg());
+        }
 
     }
 }
